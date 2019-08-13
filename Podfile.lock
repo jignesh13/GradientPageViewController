@@ -1,0 +1,20 @@
+PODS:
+  - lottie-ios (2.5.2)
+  - TypewriterView (1.0.0)
+
+DEPENDENCIES:
+  - lottie-ios
+  - TypewriterView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - lottie-ios
+    - TypewriterView
+
+SPEC CHECKSUMS:
+  lottie-ios: 3fef45d3fabe63e3c7c2eb603dd64ddfffc73062
+  TypewriterView: e490c48e171cdf57af6d39fb3caad8266466d73d
+
+PODFILE CHECKSUM: 74c18916191ee97344b4baf274ccced7596dfefb
+
+COCOAPODS: 1.7.2

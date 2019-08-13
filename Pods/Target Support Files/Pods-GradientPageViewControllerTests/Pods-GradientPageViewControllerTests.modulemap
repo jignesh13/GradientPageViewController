@@ -1,0 +1,6 @@
+framework module Pods_GradientPageViewControllerTests {
+  umbrella header "Pods-GradientPageViewControllerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

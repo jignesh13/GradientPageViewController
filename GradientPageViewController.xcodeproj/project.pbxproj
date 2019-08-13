@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3ED6AACB1D54EA7204009677 /* Pods_GradientPageViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C0DCB45AB68024FE1CDC40 /* Pods_GradientPageViewController.framework */; };
 		42CDA3862302927900A34107 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CDA3852302927900A34107 /* AppDelegate.m */; };
 		42CDA3892302927900A34107 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CDA3882302927900A34107 /* ViewController.m */; };
 		42CDA38C2302927900A34107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA38A2302927900A34107 /* Main.storyboard */; };
@@ -15,6 +16,45 @@
 		42CDA3942302927B00A34107 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CDA3932302927B00A34107 /* main.m */; };
 		42CDA39E2302927B00A34107 /* GradientPageViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CDA39D2302927B00A34107 /* GradientPageViewControllerTests.m */; };
 		42CDA3A92302927B00A34107 /* GradientPageViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CDA3A82302927B00A34107 /* GradientPageViewControllerUITests.m */; };
+		42CDA3B82302930F00A34107 /* StoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CDA3B72302930F00A34107 /* StoreViewController.m */; };
+		42CDA3BB230293CB00A34107 /* TooltipCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CDA3BA230293CB00A34107 /* TooltipCustom.swift */; };
+		42CDA3BD230293FF00A34107 /* CustomHorizontalProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CDA3BC230293FF00A34107 /* CustomHorizontalProgressView.swift */; };
+		42CDA3C02302967600A34107 /* crownking.png in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3BF2302967600A34107 /* crownking.png */; };
+		42CDA3D52302969B00A34107 /* DS-DIGIT-BOLD.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3C22302969B00A34107 /* DS-DIGIT-BOLD.TTF */; };
+		42CDA3D62302969B00A34107 /* GothamRoundedBook_21018.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3C32302969B00A34107 /* GothamRoundedBook_21018.ttf */; };
+		42CDA3D72302969B00A34107 /* KohinoorDevanagari-Demi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3C42302969B00A34107 /* KohinoorDevanagari-Demi.ttf */; };
+		42CDA3D82302969B00A34107 /* SFUIDisplay-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3C52302969B00A34107 /* SFUIDisplay-Light.otf */; };
+		42CDA3D92302969B00A34107 /* SFUIDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3C62302969B00A34107 /* SFUIDisplay-Regular.otf */; };
+		42CDA3DA2302969B00A34107 /* AlegreyaSansSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3C72302969B00A34107 /* AlegreyaSansSC-Regular.ttf */; };
+		42CDA3DB2302969B00A34107 /* Myriad-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3C82302969B00A34107 /* Myriad-Pro.ttf */; };
+		42CDA3DC2302969B00A34107 /* Chivo-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3C92302969B00A34107 /* Chivo-BlackItalic.ttf */; };
+		42CDA3DD2302969B00A34107 /* AlegreyaSansSC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3CA2302969B00A34107 /* AlegreyaSansSC-Bold.ttf */; };
+		42CDA3DE2302969B00A34107 /* GothamRoundedMedium_21022.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3CB2302969B00A34107 /* GothamRoundedMedium_21022.ttf */; };
+		42CDA3DF2302969B00A34107 /* DS-Digital.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3CC2302969B00A34107 /* DS-Digital.ttf */; };
+		42CDA3E02302969B00A34107 /* GothamRoundedLight_21020.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3CD2302969B00A34107 /* GothamRoundedLight_21020.ttf */; };
+		42CDA3E12302969B00A34107 /* GothamRoundedBold_21016.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3CE2302969B00A34107 /* GothamRoundedBold_21016.ttf */; };
+		42CDA3E22302969B00A34107 /* SFUIDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3CF2302969B00A34107 /* SFUIDisplay-Medium.otf */; };
+		42CDA3E32302969B00A34107 /* American-Captain.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3D02302969B00A34107 /* American-Captain.ttf */; };
+		42CDA3E42302969B00A34107 /* Myriad-Pro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3D12302969B00A34107 /* Myriad-Pro-Semibold.ttf */; };
+		42CDA3E52302969B00A34107 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3D22302969B00A34107 /* ProximaNova-Regular.otf */; };
+		42CDA3E62302969B00A34107 /* Gilroy-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3D32302969B00A34107 /* Gilroy-Light.otf */; };
+		42CDA3E72302969B00A34107 /* Gilroy-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3D42302969B00A34107 /* Gilroy-ExtraBold.otf */; };
+		42CDA3E92302978000A34107 /* EPShinyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CDA3E82302978000A34107 /* EPShinyButton.swift */; };
+		42CDA3F12302982D00A34107 /* customize.json in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3EB2302982D00A34107 /* customize.json */; };
+		42CDA3F22302982D00A34107 /* speed_up.json in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3EC2302982D00A34107 /* speed_up.json */; };
+		42CDA3F32302982D00A34107 /* 10_followers.json in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3ED2302982D00A34107 /* 10_followers.json */; };
+		42CDA3F42302982D00A34107 /* circle.json in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3EE2302982D00A34107 /* circle.json */; };
+		42CDA3F52302982D00A34107 /* no_followers_drop.json in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3EF2302982D00A34107 /* no_followers_drop.json */; };
+		42CDA3F62302982D00A34107 /* profile_stalker.json in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3F02302982D00A34107 /* profile_stalker.json */; };
+		42CDA3F82302986500A34107 /* crownsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3F72302986500A34107 /* crownsmall.png */; };
+		42CDA3FE2302988300A34107 /* PageItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CDA3FD2302988300A34107 /* PageItemViewController.m */; };
+		42CDA400230298AE00A34107 /* downarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 42CDA3FF230298AE00A34107 /* downarrow.png */; };
+		42CDA4022302991700A34107 /* CustomizeBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CDA4012302991600A34107 /* CustomizeBorderView.swift */; };
+		42CDA404230299AC00A34107 /* SpacingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CDA403230299AC00A34107 /* SpacingLabel.swift */; };
+		42CDA40723029AC600A34107 /* UILabel+FormattedText.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CDA40523029AC500A34107 /* UILabel+FormattedText.m */; };
+		42CDA40C23029BF400A34107 /* TypewriterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CDA40B23029BF400A34107 /* TypewriterLabel.swift */; };
+		56A6F7F790235C2DB27DCB62 /* Pods_GradientPageViewControllerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7290B840C9A03220AE408212 /* Pods_GradientPageViewControllerUITests.framework */; };
+		BFB228DFDC38A67D5F0633B1 /* Pods_GradientPageViewControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F10D7932866F8E9A68C544 /* Pods_GradientPageViewControllerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +75,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3810D186C12796891960E466 /* Pods-GradientPageViewControllerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientPageViewControllerUITests.debug.xcconfig"; path = "Target Support Files/Pods-GradientPageViewControllerUITests/Pods-GradientPageViewControllerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		42CDA3812302927900A34107 /* GradientPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientPageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CDA3842302927900A34107 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42CDA3852302927900A34107 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +92,55 @@
 		42CDA3A42302927B00A34107 /* GradientPageViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientPageViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CDA3A82302927B00A34107 /* GradientPageViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientPageViewControllerUITests.m; sourceTree = "<group>"; };
 		42CDA3AA2302927B00A34107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CDA3B62302930E00A34107 /* StoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreViewController.h; sourceTree = "<group>"; };
+		42CDA3B72302930F00A34107 /* StoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreViewController.m; sourceTree = "<group>"; };
+		42CDA3B9230293CA00A34107 /* GradientPageViewController-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GradientPageViewController-Bridging-Header.h"; sourceTree = "<group>"; };
+		42CDA3BA230293CB00A34107 /* TooltipCustom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TooltipCustom.swift; sourceTree = "<group>"; };
+		42CDA3BC230293FF00A34107 /* CustomHorizontalProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHorizontalProgressView.swift; sourceTree = "<group>"; };
+		42CDA3BF2302967600A34107 /* crownking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crownking.png; sourceTree = "<group>"; };
+		42CDA3C22302969B00A34107 /* DS-DIGIT-BOLD.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGIT-BOLD.TTF"; sourceTree = "<group>"; };
+		42CDA3C32302969B00A34107 /* GothamRoundedBook_21018.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRoundedBook_21018.ttf; sourceTree = "<group>"; };
+		42CDA3C42302969B00A34107 /* KohinoorDevanagari-Demi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KohinoorDevanagari-Demi.ttf"; sourceTree = "<group>"; };
+		42CDA3C52302969B00A34107 /* SFUIDisplay-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Light.otf"; sourceTree = "<group>"; };
+		42CDA3C62302969B00A34107 /* SFUIDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Regular.otf"; sourceTree = "<group>"; };
+		42CDA3C72302969B00A34107 /* AlegreyaSansSC-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSansSC-Regular.ttf"; sourceTree = "<group>"; };
+		42CDA3C82302969B00A34107 /* Myriad-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Myriad-Pro.ttf"; sourceTree = "<group>"; };
+		42CDA3C92302969B00A34107 /* Chivo-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chivo-BlackItalic.ttf"; sourceTree = "<group>"; };
+		42CDA3CA2302969B00A34107 /* AlegreyaSansSC-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSansSC-Bold.ttf"; sourceTree = "<group>"; };
+		42CDA3CB2302969B00A34107 /* GothamRoundedMedium_21022.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRoundedMedium_21022.ttf; sourceTree = "<group>"; };
+		42CDA3CC2302969B00A34107 /* DS-Digital.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-Digital.ttf"; sourceTree = "<group>"; };
+		42CDA3CD2302969B00A34107 /* GothamRoundedLight_21020.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRoundedLight_21020.ttf; sourceTree = "<group>"; };
+		42CDA3CE2302969B00A34107 /* GothamRoundedBold_21016.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRoundedBold_21016.ttf; sourceTree = "<group>"; };
+		42CDA3CF2302969B00A34107 /* SFUIDisplay-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIDisplay-Medium.otf"; sourceTree = "<group>"; };
+		42CDA3D02302969B00A34107 /* American-Captain.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "American-Captain.ttf"; sourceTree = "<group>"; };
+		42CDA3D12302969B00A34107 /* Myriad-Pro-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Myriad-Pro-Semibold.ttf"; sourceTree = "<group>"; };
+		42CDA3D22302969B00A34107 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		42CDA3D32302969B00A34107 /* Gilroy-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.otf"; sourceTree = "<group>"; };
+		42CDA3D42302969B00A34107 /* Gilroy-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBold.otf"; sourceTree = "<group>"; };
+		42CDA3E82302978000A34107 /* EPShinyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPShinyButton.swift; sourceTree = "<group>"; };
+		42CDA3EB2302982D00A34107 /* customize.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = customize.json; sourceTree = "<group>"; };
+		42CDA3EC2302982D00A34107 /* speed_up.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = speed_up.json; sourceTree = "<group>"; };
+		42CDA3ED2302982D00A34107 /* 10_followers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 10_followers.json; sourceTree = "<group>"; };
+		42CDA3EE2302982D00A34107 /* circle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = circle.json; sourceTree = "<group>"; };
+		42CDA3EF2302982D00A34107 /* no_followers_drop.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = no_followers_drop.json; sourceTree = "<group>"; };
+		42CDA3F02302982D00A34107 /* profile_stalker.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = profile_stalker.json; sourceTree = "<group>"; };
+		42CDA3F72302986500A34107 /* crownsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crownsmall.png; sourceTree = "<group>"; };
+		42CDA3FC2302988300A34107 /* PageItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageItemViewController.h; sourceTree = "<group>"; };
+		42CDA3FD2302988300A34107 /* PageItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageItemViewController.m; sourceTree = "<group>"; };
+		42CDA3FF230298AE00A34107 /* downarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downarrow.png; sourceTree = "<group>"; };
+		42CDA4012302991600A34107 /* CustomizeBorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizeBorderView.swift; sourceTree = "<group>"; };
+		42CDA403230299AC00A34107 /* SpacingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpacingLabel.swift; sourceTree = "<group>"; };
+		42CDA40523029AC500A34107 /* UILabel+FormattedText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FormattedText.m"; sourceTree = "<group>"; };
+		42CDA40623029AC500A34107 /* UILabel+FormattedText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FormattedText.h"; sourceTree = "<group>"; };
+		42CDA40B23029BF400A34107 /* TypewriterLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypewriterLabel.swift; sourceTree = "<group>"; };
+		6BB3E07E84989B5A88CAA7D7 /* Pods-GradientPageViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientPageViewController.debug.xcconfig"; path = "Target Support Files/Pods-GradientPageViewController/Pods-GradientPageViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		7290B840C9A03220AE408212 /* Pods_GradientPageViewControllerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradientPageViewControllerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A587AD1910B48DCED378857 /* Pods-GradientPageViewControllerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientPageViewControllerUITests.release.xcconfig"; path = "Target Support Files/Pods-GradientPageViewControllerUITests/Pods-GradientPageViewControllerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		91F10D7932866F8E9A68C544 /* Pods_GradientPageViewControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradientPageViewControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C0DCB45AB68024FE1CDC40 /* Pods_GradientPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GradientPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDD7D7C2BF4F8583AA761E8 /* Pods-GradientPageViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientPageViewController.release.xcconfig"; path = "Target Support Files/Pods-GradientPageViewController/Pods-GradientPageViewController.release.xcconfig"; sourceTree = "<group>"; };
+		F8CCADE3EB1F7D4ABFBC4530 /* Pods-GradientPageViewControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientPageViewControllerTests.debug.xcconfig"; path = "Target Support Files/Pods-GradientPageViewControllerTests/Pods-GradientPageViewControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCB70B908DF220E5BA4C6D81 /* Pods-GradientPageViewControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GradientPageViewControllerTests.release.xcconfig"; path = "Target Support Files/Pods-GradientPageViewControllerTests/Pods-GradientPageViewControllerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ED6AACB1D54EA7204009677 /* Pods_GradientPageViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB228DFDC38A67D5F0633B1 /* Pods_GradientPageViewControllerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A6F7F790235C2DB27DCB62 /* Pods_GradientPageViewControllerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +178,8 @@
 				42CDA39C2302927B00A34107 /* GradientPageViewControllerTests */,
 				42CDA3A72302927B00A34107 /* GradientPageViewControllerUITests */,
 				42CDA3822302927900A34107 /* Products */,
+				E914F997410A3B38F7D212CE /* Pods */,
+				83EACA35B303A0A094906B93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +196,31 @@
 		42CDA3832302927900A34107 /* GradientPageViewController */ = {
 			isa = PBXGroup;
 			children = (
+				42CDA3EA2302982200A34107 /* anim */,
+				42CDA3C12302969B00A34107 /* font */,
+				42CDA3BE2302966800A34107 /* image */,
 				42CDA3842302927900A34107 /* AppDelegate.h */,
 				42CDA3852302927900A34107 /* AppDelegate.m */,
 				42CDA3872302927900A34107 /* ViewController.h */,
 				42CDA3882302927900A34107 /* ViewController.m */,
+				42CDA3B62302930E00A34107 /* StoreViewController.h */,
+				42CDA3B72302930F00A34107 /* StoreViewController.m */,
+				42CDA3FC2302988300A34107 /* PageItemViewController.h */,
+				42CDA3FD2302988300A34107 /* PageItemViewController.m */,
+				42CDA40623029AC500A34107 /* UILabel+FormattedText.h */,
+				42CDA40523029AC500A34107 /* UILabel+FormattedText.m */,
+				42CDA3BC230293FF00A34107 /* CustomHorizontalProgressView.swift */,
+				42CDA3BA230293CB00A34107 /* TooltipCustom.swift */,
+				42CDA3E82302978000A34107 /* EPShinyButton.swift */,
+				42CDA403230299AC00A34107 /* SpacingLabel.swift */,
+				42CDA4012302991600A34107 /* CustomizeBorderView.swift */,
+				42CDA40B23029BF400A34107 /* TypewriterLabel.swift */,
 				42CDA38A2302927900A34107 /* Main.storyboard */,
 				42CDA38D2302927B00A34107 /* Assets.xcassets */,
 				42CDA38F2302927B00A34107 /* LaunchScreen.storyboard */,
 				42CDA3922302927B00A34107 /* Info.plist */,
 				42CDA3932302927B00A34107 /* main.m */,
+				42CDA3B9230293CA00A34107 /* GradientPageViewController-Bridging-Header.h */,
 			);
 			path = GradientPageViewController;
 			sourceTree = "<group>";
@@ -132,6 +243,78 @@
 			path = GradientPageViewControllerUITests;
 			sourceTree = "<group>";
 		};
+		42CDA3BE2302966800A34107 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				42CDA3F72302986500A34107 /* crownsmall.png */,
+				42CDA3BF2302967600A34107 /* crownking.png */,
+				42CDA3FF230298AE00A34107 /* downarrow.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		42CDA3C12302969B00A34107 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				42CDA3C22302969B00A34107 /* DS-DIGIT-BOLD.TTF */,
+				42CDA3C32302969B00A34107 /* GothamRoundedBook_21018.ttf */,
+				42CDA3C42302969B00A34107 /* KohinoorDevanagari-Demi.ttf */,
+				42CDA3C52302969B00A34107 /* SFUIDisplay-Light.otf */,
+				42CDA3C62302969B00A34107 /* SFUIDisplay-Regular.otf */,
+				42CDA3C72302969B00A34107 /* AlegreyaSansSC-Regular.ttf */,
+				42CDA3C82302969B00A34107 /* Myriad-Pro.ttf */,
+				42CDA3C92302969B00A34107 /* Chivo-BlackItalic.ttf */,
+				42CDA3CA2302969B00A34107 /* AlegreyaSansSC-Bold.ttf */,
+				42CDA3CB2302969B00A34107 /* GothamRoundedMedium_21022.ttf */,
+				42CDA3CC2302969B00A34107 /* DS-Digital.ttf */,
+				42CDA3CD2302969B00A34107 /* GothamRoundedLight_21020.ttf */,
+				42CDA3CE2302969B00A34107 /* GothamRoundedBold_21016.ttf */,
+				42CDA3CF2302969B00A34107 /* SFUIDisplay-Medium.otf */,
+				42CDA3D02302969B00A34107 /* American-Captain.ttf */,
+				42CDA3D12302969B00A34107 /* Myriad-Pro-Semibold.ttf */,
+				42CDA3D22302969B00A34107 /* ProximaNova-Regular.otf */,
+				42CDA3D32302969B00A34107 /* Gilroy-Light.otf */,
+				42CDA3D42302969B00A34107 /* Gilroy-ExtraBold.otf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		42CDA3EA2302982200A34107 /* anim */ = {
+			isa = PBXGroup;
+			children = (
+				42CDA3ED2302982D00A34107 /* 10_followers.json */,
+				42CDA3EE2302982D00A34107 /* circle.json */,
+				42CDA3EB2302982D00A34107 /* customize.json */,
+				42CDA3EF2302982D00A34107 /* no_followers_drop.json */,
+				42CDA3F02302982D00A34107 /* profile_stalker.json */,
+				42CDA3EC2302982D00A34107 /* speed_up.json */,
+			);
+			path = anim;
+			sourceTree = "<group>";
+		};
+		83EACA35B303A0A094906B93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1C0DCB45AB68024FE1CDC40 /* Pods_GradientPageViewController.framework */,
+				91F10D7932866F8E9A68C544 /* Pods_GradientPageViewControllerTests.framework */,
+				7290B840C9A03220AE408212 /* Pods_GradientPageViewControllerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E914F997410A3B38F7D212CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BB3E07E84989B5A88CAA7D7 /* Pods-GradientPageViewController.debug.xcconfig */,
+				CFDD7D7C2BF4F8583AA761E8 /* Pods-GradientPageViewController.release.xcconfig */,
+				F8CCADE3EB1F7D4ABFBC4530 /* Pods-GradientPageViewControllerTests.debug.xcconfig */,
+				FCB70B908DF220E5BA4C6D81 /* Pods-GradientPageViewControllerTests.release.xcconfig */,
+				3810D186C12796891960E466 /* Pods-GradientPageViewControllerUITests.debug.xcconfig */,
+				7A587AD1910B48DCED378857 /* Pods-GradientPageViewControllerUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +322,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42CDA3AD2302927B00A34107 /* Build configuration list for PBXNativeTarget "GradientPageViewController" */;
 			buildPhases = (
+				FA906C9BD17162486B5EEF1E /* [CP] Check Pods Manifest.lock */,
 				42CDA37D2302927900A34107 /* Sources */,
 				42CDA37E2302927900A34107 /* Frameworks */,
 				42CDA37F2302927900A34107 /* Resources */,
+				3ACD970DDD4D3CF554FD7847 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +341,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42CDA3B02302927B00A34107 /* Build configuration list for PBXNativeTarget "GradientPageViewControllerTests" */;
 			buildPhases = (
+				C5E4A59D3146250F4E7D07DF /* [CP] Check Pods Manifest.lock */,
 				42CDA3952302927B00A34107 /* Sources */,
 				42CDA3962302927B00A34107 /* Frameworks */,
 				42CDA3972302927B00A34107 /* Resources */,
@@ -174,6 +360,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42CDA3B32302927B00A34107 /* Build configuration list for PBXNativeTarget "GradientPageViewControllerUITests" */;
 			buildPhases = (
+				B56C3827346CB385CBA8E745 /* [CP] Check Pods Manifest.lock */,
 				42CDA3A02302927B00A34107 /* Sources */,
 				42CDA3A12302927B00A34107 /* Frameworks */,
 				42CDA3A22302927B00A34107 /* Resources */,
@@ -199,6 +386,7 @@
 				TargetAttributes = {
 					42CDA3802302927900A34107 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					42CDA3982302927B00A34107 = {
 						CreatedOnToolsVersion = 10.1;
@@ -235,8 +423,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42CDA3F42302982D00A34107 /* circle.json in Resources */,
+				42CDA3E32302969B00A34107 /* American-Captain.ttf in Resources */,
 				42CDA3912302927B00A34107 /* LaunchScreen.storyboard in Resources */,
+				42CDA3F62302982D00A34107 /* profile_stalker.json in Resources */,
+				42CDA3DD2302969B00A34107 /* AlegreyaSansSC-Bold.ttf in Resources */,
+				42CDA3DB2302969B00A34107 /* Myriad-Pro.ttf in Resources */,
+				42CDA3DC2302969B00A34107 /* Chivo-BlackItalic.ttf in Resources */,
+				42CDA3E72302969B00A34107 /* Gilroy-ExtraBold.otf in Resources */,
+				42CDA3F52302982D00A34107 /* no_followers_drop.json in Resources */,
+				42CDA3E12302969B00A34107 /* GothamRoundedBold_21016.ttf in Resources */,
+				42CDA3D92302969B00A34107 /* SFUIDisplay-Regular.otf in Resources */,
+				42CDA3F82302986500A34107 /* crownsmall.png in Resources */,
+				42CDA3E02302969B00A34107 /* GothamRoundedLight_21020.ttf in Resources */,
+				42CDA3E52302969B00A34107 /* ProximaNova-Regular.otf in Resources */,
+				42CDA400230298AE00A34107 /* downarrow.png in Resources */,
+				42CDA3F32302982D00A34107 /* 10_followers.json in Resources */,
 				42CDA38E2302927B00A34107 /* Assets.xcassets in Resources */,
+				42CDA3D62302969B00A34107 /* GothamRoundedBook_21018.ttf in Resources */,
+				42CDA3C02302967600A34107 /* crownking.png in Resources */,
+				42CDA3F22302982D00A34107 /* speed_up.json in Resources */,
+				42CDA3D52302969B00A34107 /* DS-DIGIT-BOLD.TTF in Resources */,
+				42CDA3DE2302969B00A34107 /* GothamRoundedMedium_21022.ttf in Resources */,
+				42CDA3E62302969B00A34107 /* Gilroy-Light.otf in Resources */,
+				42CDA3E22302969B00A34107 /* SFUIDisplay-Medium.otf in Resources */,
+				42CDA3F12302982D00A34107 /* customize.json in Resources */,
+				42CDA3DF2302969B00A34107 /* DS-Digital.ttf in Resources */,
+				42CDA3E42302969B00A34107 /* Myriad-Pro-Semibold.ttf in Resources */,
+				42CDA3D72302969B00A34107 /* KohinoorDevanagari-Demi.ttf in Resources */,
+				42CDA3D82302969B00A34107 /* SFUIDisplay-Light.otf in Resources */,
+				42CDA3DA2302969B00A34107 /* AlegreyaSansSC-Regular.ttf in Resources */,
 				42CDA38C2302927900A34107 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,14 +473,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3ACD970DDD4D3CF554FD7847 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GradientPageViewController/Pods-GradientPageViewController-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GradientPageViewController/Pods-GradientPageViewController-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GradientPageViewController/Pods-GradientPageViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B56C3827346CB385CBA8E745 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GradientPageViewControllerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5E4A59D3146250F4E7D07DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GradientPageViewControllerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA906C9BD17162486B5EEF1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GradientPageViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		42CDA37D2302927900A34107 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42CDA3B82302930F00A34107 /* StoreViewController.m in Sources */,
 				42CDA3892302927900A34107 /* ViewController.m in Sources */,
+				42CDA404230299AC00A34107 /* SpacingLabel.swift in Sources */,
+				42CDA4022302991700A34107 /* CustomizeBorderView.swift in Sources */,
+				42CDA3BD230293FF00A34107 /* CustomHorizontalProgressView.swift in Sources */,
 				42CDA3942302927B00A34107 /* main.m in Sources */,
+				42CDA40723029AC600A34107 /* UILabel+FormattedText.m in Sources */,
+				42CDA40C23029BF400A34107 /* TypewriterLabel.swift in Sources */,
+				42CDA3FE2302988300A34107 /* PageItemViewController.m in Sources */,
+				42CDA3BB230293CB00A34107 /* TooltipCustom.swift in Sources */,
 				42CDA3862302927900A34107 /* AppDelegate.m in Sources */,
+				42CDA3E92302978000A34107 /* EPShinyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,8 +744,10 @@
 		};
 		42CDA3AE2302927B00A34107 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB3E07E84989B5A88CAA7D7 /* Pods-GradientPageViewController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GradientPageViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -443,14 +756,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ci.aud.GradientPageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GradientPageViewController/GradientPageViewController-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		42CDA3AF2302927B00A34107 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFDD7D7C2BF4F8583AA761E8 /* Pods-GradientPageViewController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GradientPageViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,13 +777,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ci.aud.GradientPageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GradientPageViewController/GradientPageViewController-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		42CDA3B12302927B00A34107 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8CCADE3EB1F7D4ABFBC4530 /* Pods-GradientPageViewControllerTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GradientPageViewControllerTests/Info.plist;
@@ -483,7 +805,9 @@
 		};
 		42CDA3B22302927B00A34107 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCB70B908DF220E5BA4C6D81 /* Pods-GradientPageViewControllerTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GradientPageViewControllerTests/Info.plist;
@@ -501,7 +825,9 @@
 		};
 		42CDA3B42302927B00A34107 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3810D186C12796891960E466 /* Pods-GradientPageViewControllerUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GradientPageViewControllerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -518,7 +844,9 @@
 		};
 		42CDA3B52302927B00A34107 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A587AD1910B48DCED378857 /* Pods-GradientPageViewControllerUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GradientPageViewControllerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
