@@ -1,7 +1,7 @@
 # GradientPageViewController
 create pageviewcontroller change gradient color while scrolling and shine effect button with beautiful lottie animation
 
-<image src=/calendargi.gif
+<image src=/ezgif.com-video-to-gif.gif
  width=225 height=400>
 ##  Developer
   jignesh khunt
